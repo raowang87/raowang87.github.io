@@ -14,17 +14,21 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF5EE;
-  font: 16.34px Arial, serif;
+  font: 13.34px Verdana, serif;
   font-size: medium;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3,{
   font-size: 120%; }
 
+h4{ font-size: 100% }
+h5, h6{ line-height: 3.75em;}
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+
+/* set the main part of post */
+p { margin: 0; font-size: 70%}
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -34,12 +38,16 @@ table {
   font-size: inherit;
   font: 100%;
 }
-
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
+h4.intro {
+  font-size: 90%
+  font-weight: normal;
+} 
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -49,10 +57,21 @@ ul.posts li {
   line-height: 1.75em;
 }
 
+ul.posts a{
+  text-decoration: none;
+  color: #c76004;
+  font-size: 80%
+}
+
+ul.posts a:hover {
+  color: #004;
+  text-decoration: underline;
+}
+
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+  font-family: Verdana, monospace;
+  font-size: 50%;
 }
 
 /*****************************************************************************/
@@ -62,7 +81,7 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 110%;
   text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
@@ -77,6 +96,7 @@ ul.posts span {
 .site .header h1.title {
   display: inline-block;
   margin-bottom: 2em;
+  font-size: 120%
 }
 
 .site .header h1.title a {
@@ -96,6 +116,10 @@ ul.posts span {
   color: #000;
 }
 
+.site .body img.photo {
+  float:left; padding:30px;
+}
+
 .site .body h2.subtitle {
   color: #aaa;
   text-align: center;
@@ -104,7 +128,7 @@ ul.posts span {
 
 .site .body p.content {
   font-size: 100%;
-  font-family:Georgia;
+  font-family:Verdana;
 }
 
 .site .body p.content a {
@@ -121,11 +145,12 @@ ul.posts span {
 }
 
 .site .footer {
-  font-size: 80%;
+  font-size: 100%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
+  margin-bottom: 19em;
 }
 
 .site .footer .contact {
