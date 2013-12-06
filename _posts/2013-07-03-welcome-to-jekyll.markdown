@@ -8,7 +8,7 @@ categories: jekyll update
 #####Internship
 ------------------------------------------------------------------
 ######Software Developer Internship -- PeopleAdmin    (Summer 2013)  
-• Developed new customer-facing features for talent management tools using Ruby on Rails
+ • Developed new customer-facing features for talent management tools using Ruby on Rails
 
     
 #####Projects
@@ -28,7 +28,11 @@ categories: jekyll update
   loading and running user programs, virtual memory management and file system.  
  • Implemented and optimized these four parts in C  
    
-
+<h6>Lisp Interpreter   (Fall 2012)</h6>
+ • Implemented a Lisp interpreter in Java and Javacc (essential classes: Node, Environment, Visitor, Parser )  
+ • Built up abstract syntax tree from scratch  
+ • Fulfilled multiple b
+ 
 <h6>Lisp Interpreter   (Fall 2012)</h6>
  • Implemented a Lisp interpreter in Java and Javacc (essential classes: Node, Environment, Visitor, Parser )  
  • Built up abstract syntax tree from scratch  
