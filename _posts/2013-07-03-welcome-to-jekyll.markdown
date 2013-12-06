@@ -8,6 +8,9 @@ categories: jekyll update
 #####Internship
 ------------------------------------------------------------------
 ######Software Developer Internship -- PeopleAdmin    (Summer 2013)  
+• Developed new customer-facing features for talent management tools using Ruby on Rails
+• Applied Model–View–Controller (MVC) architecture in our products and Web development
+• Worked intensively on database management and migration
     
 #####Projects
 ------------------------------------------------------------------
