@@ -13,12 +13,12 @@ categories: jekyll update
     
 #####Projects
 ------------------------------------------------------------------
+
 <h6>World Crisis Databbase  (Fall 2013)</h6>
- • Implemented the website to show world crisis data in Django and postgreSQL
+ • Implemented the website to show world crisis data in Django and postgreSQL  
+ • Built up abstract syntax tree from scratch  
  • Integrated the knowledge of HTML, CSS and git management
-
-
-
+ 
 <h6>CREO Database Management System (Summer 2013)</h6>
  • Built up database management system for Campus Real Estate Office of the University of Texas
  • Implemented in APEX and SQL Developer Data Modeler offered by Oracle
